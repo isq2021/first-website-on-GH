@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato&display=swap');
+body{
+    margin: 0;  
+    font-family: 'Cedarville Cursive', cursive; 
+}
+.beach{
+    margin: 0;
+}
+.main-part{
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/images/beach/beachshowcase.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    color: rgba(177, 121, 18, 0.904);
+}
+h1{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 50px;
+   
+}
+button{
+    padding:10px 20px;
+    margin-top: 20px;
+    border:1px solid rgba(177, 121, 18, 0.904) ;
+    border-radius: 8px;
+    color: rgba(177, 121, 18, 0.904);
+    background-color: transparent;
+}
+button:hover{
+    color: white;
+    background-color: rgba(177, 121, 18, 0.904);
+    cursor: pointer;
+
+}
+.article-max{
+    
+    text-align: center;
+    margin: 0;
+}
+.article-max p{
+    margin: 0;
+    padding:10px 20px;
+
+}
+.article-max p:nth-child(odd){
+    background-color: rgba(177, 121, 18, 0.904);
+    color: white;
+    
+}
+.article-min{
+    display: flex;
+    
+
+}
+.article-min p{
+    margin-bottom: 0;
+}
+.article-min p:nth-child(odd){
+    background-color: rgba(177, 121, 18, 0.904);
+    color: white;
+    padding:10px 20px;
+}
+.article-min p:nth-child(even){
+    background-color: white;
+    color: rgba(177, 121, 18, 0.904);
+    padding:10px 20px;
+}
